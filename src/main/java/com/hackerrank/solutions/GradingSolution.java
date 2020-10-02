@@ -42,7 +42,7 @@ class Result {
 public class GradingSolution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/home/jayant/Jayant/PersonalProjects/Test.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("RANK_PATH")));
 
         int gradesCount = Integer.parseInt(bufferedReader.readLine().trim());
 

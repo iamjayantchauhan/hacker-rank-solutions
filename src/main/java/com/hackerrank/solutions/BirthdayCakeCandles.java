@@ -31,7 +31,7 @@ public class BirthdayCakeCandles {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/Users/jayant/Projects/Personal/test.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("RANK_PATH")));
 
         int arCount = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
