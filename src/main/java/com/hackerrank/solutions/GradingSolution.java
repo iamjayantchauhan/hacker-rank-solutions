@@ -24,7 +24,7 @@ class Result {
     public static List<Integer> gradingStudents(List<Integer> grades) {
         // Write your code here
         return grades.stream().map(e -> {
-            if (e <= 33) {
+            if (e <= 38) {
                  return e;
             } else {
                 Integer roundedNumber = (e + 4) / 5 * 5;
