@@ -1,17 +1,18 @@
 package com.hackerrank.solutions;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
+import java.util.List;
+import java.util.stream.IntStream;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
+/*
+ *   Grading Problem
+ *
+ * https://www.hackerrank.com/challenges/grading/problem
+ *
+ **/
 class Result {
 
     /*
@@ -25,7 +26,7 @@ class Result {
         // Write your code here
         return grades.stream().map(e -> {
             if (e <= 38) {
-                 return e;
+                return e;
             } else {
                 Integer roundedNumber = (e + 4) / 5 * 5;
                 if ((roundedNumber - e) < 3) {
