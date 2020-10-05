@@ -1,7 +1,11 @@
 package com.hackerrank.solutions;
 
 import java.util.*;
-
+/*
+* Hacker Rank solution for...
+*
+* https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&playlist_slugs%5B%5D=virtusa
+* */
 class Player {
     String name;
     int score;
