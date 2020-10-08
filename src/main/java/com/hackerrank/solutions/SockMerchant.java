@@ -15,12 +15,7 @@ public class SockMerchant {
     static int sockMerchant(int n, int[] ar) {
             HashMap<Integer, Integer> pairMap = new HashMap<>();
         for (int element: ar) {
-            if (pairMap.containsKey(element)) {
-                int value = pairMap.get(element);
-                pairMap.put(element, value + 1);
-            } else {
-                pairMap.put(element, 0);
-            }
+            //Implement new logic
         }
         return pairMap.values().stream().reduce(0, Integer::sum);
     }
