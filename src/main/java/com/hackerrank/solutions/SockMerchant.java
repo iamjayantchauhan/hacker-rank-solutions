@@ -1,23 +1,26 @@
 package com.hackerrank.solutions;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
-import java.util.stream.Collectors;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
 
 public class SockMerchant {
 
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {
-            HashMap<Integer, Integer> pairMap = new HashMap<>();
-        for (int element: ar) {
-            //Implement new logic
+        HashSet<Integer> unmatched = new HashSet<>();
+        int pairs = 0;
+        for (int j : ar) {
+            if (!unmatched.add(j)) {
+                unmatched.remove(j);
+                pairs++;
+            }
         }
-        return pairMap.values().stream().reduce(0, Integer::sum);
+
+        return pairs;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
