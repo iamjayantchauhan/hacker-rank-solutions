@@ -1,9 +1,12 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 /*
 * Birthday cake candles problem

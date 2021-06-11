@@ -1,4 +1,4 @@
-package com.hackerrank.solutions.virtusa;
+package com.hackerrank.solutions.Virtusa;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

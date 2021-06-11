@@ -1,6 +1,8 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
 /*
 * Hacker Rank solution for...
 *

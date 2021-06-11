@@ -1,4 +1,4 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
 import java.io.*;
 import java.util.List;

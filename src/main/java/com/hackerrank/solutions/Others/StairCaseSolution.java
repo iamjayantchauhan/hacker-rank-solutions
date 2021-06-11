@@ -1,12 +1,6 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 /*
  * Solution for stair case solution
@@ -22,7 +16,7 @@ public class StairCaseSolution {
             for (int j = 1; j <= n; j++) {
                 System.out.print(j < n - i ? " " : "#");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 

@@ -1,4 +1,4 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
 /*
  * Solution for this problem

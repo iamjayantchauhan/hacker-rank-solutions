@@ -1,4 +1,4 @@
-package com.hackerrank.solutions;
+package com.hackerrank.solutions.Others;
 
 /*
  *  Solution for this problem
@@ -6,13 +6,8 @@ package com.hackerrank.solutions;
  *  https://www.hackerrank.com/challenges/mini-max-sum/problem
  */
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class MinMax {
 
